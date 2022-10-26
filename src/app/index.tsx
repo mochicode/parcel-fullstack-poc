@@ -2,8 +2,6 @@ import React, { useEffect } from 'react'
 import { createRoot } from 'react-dom/client'
 import { PingResponse, PingUrl } from '~/src/shared'
 
-window.React = React
-
 let root = createRoot(
   document.getElementById('app')!
 )
